@@ -1,0 +1,38 @@
+header {
+    background-color: darkgray;
+    padding: 10px;
+    height: 100px;
+}
+
+header span {
+    margin-right: 20px;
+    border: 2px solid rgba(100, 200, 200, 1);
+    background-color: rgba(100, 200, 200, .5);
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 700ms linear;
+}
+
+header span:hover {
+    background-color: rgba(100, 200, 200, 1);
+}
+
+#header-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header-row-2 {
+    margin-top: 20px;
+}
+
+#title {
+    margin: 0;
+}
+
+main {
+    margin-top: 30px;
+    text-align: center;
+}
